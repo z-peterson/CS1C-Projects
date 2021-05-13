@@ -1,0 +1,38 @@
+Script started on 2020-03-12 17:06:55+00:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="214" LINES="85"]
+[zac@zac-archbox HW9]$ date
+Thu Mar 12 17:06:57 UTC 2020
+[zac@zac-archbox HW9]$ ls -l
+total 20
+-rw-r--r-- 1 zac zac  441 Mar 12 17:06 Makefile
+-rw-r--r-- 1 zac zac  890 Mar 12 16:54 Rectangle.h
+-rw-r--r-- 1 zac zac  910 Mar 12 16:56 Shape.h
+-rw-r--r-- 1 zac zac  955 Mar 12 16:54 Triangle.h
+-rw-r--r-- 1 zac zac 1388 Mar  8 02:11 hw09.cpp
+-rw-r--r-- 1 zac zac    0 Mar 12 17:06 hw09.scr
+[zac@zac-archbox HW9]$ make all
+g++     hw09.cpp   -o hw09
+[zac@zac-archbox HW9]$ ls - l  l
+total 40
+-rw-r--r-- 1 zac zac   441 Mar 12 17:06 Makefile
+-rw-r--r-- 1 zac zac   890 Mar 12 16:54 Rectangle.h
+-rw-r--r-- 1 zac zac   910 Mar 12 16:56 Shape.h
+-rw-r--r-- 1 zac zac   955 Mar 12 16:54 Triangle.h
+-rwxr-xr-x 1 zac zac 19584 Mar 12 17:07 [0m[01;32mhw09[0m
+-rw-r--r-- 1 zac zac  1388 Mar  8 02:11 hw09.cpp
+-rw-r--r-- 1 zac zac     0 Mar 12 17:06 hw09.scr
+[zac@zac-archbox HW9]$ ./hw09
+Please enter side #1 of the rectangle 5
+Please enter side #2 of the rectangle 7
+
+Please enter side #1 of the triangle. NOTE: Side 3 must be hypotenuse. 1
+Please enter side #2 of the triangle. NOTE: Side 3 must be hypotenuse. 3
+Please enter side #3 of the triangle. NOTE: Side 3 must be hypotenuse. 10^[[2~       5
+
+The perimeter of the rectangle is 24
+The area of the rectangle is 35
+The perimeter of the triangle is 9
+The area of the triangle is 1
+[zac@zac-archbox HW9]$ exit
+exit
+
+Script done on 2020-03-12 17:09:14+00:00 [COMMAND_EXIT_CODE="0"]

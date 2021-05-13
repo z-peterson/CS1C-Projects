@@ -1,0 +1,81 @@
+Script started on 2020-02-11 17:17:00+00:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="108" LINES="44"]
+[zac@zac-archbox HW4]$ date  
+Tue Feb 11 17:17:01 UTC 2020
+[zac@zac-archbox HW4]$ ls -l
+total 396
+-rw-r--r-- 1 zac zac    699 Feb  2 23:56 Makefile
+-rw-r--r-- 1 zac zac    792 Jan 30 19:18 architect.cpp
+-rw-r--r-- 1 zac zac    478 Jan 30 19:44 architect.h
+-rw-r--r-- 1 zac zac  54328 Feb  8 23:11 architect.o
+-rw-r--r-- 1 zac zac    416 Feb  3 02:04 date.cpp
+-rw-r--r-- 1 zac zac    380 Jan 30 19:48 date.h
+-rw-r--r-- 1 zac zac   6712 Feb  8 23:11 date.o
+-rw-r--r-- 1 zac zac   2980 Feb  3 03:36 employee.cpp
+-rw-r--r-- 1 zac zac   1161 Feb  3 03:47 employee.h
+-rw-r--r-- 1 zac zac  62424 Feb  8 23:11 employee.o
+-rwxr-xr-x 1 zac zac 173816 Feb  8 23:11 [0m[01;32mhw04[0m
+-rw-r--r-- 1 zac zac   1244 Feb  8 23:11 hw04.cpp
+-rw-r--r-- 1 zac zac      0 Feb 11 17:17 hw04.scr
+-rw-r--r-- 1 zac zac   1200 Feb  3 03:45 programmer.cpp
+-rw-r--r-- 1 zac zac    597 Feb  3 03:45 programmer.h
+-rw-r--r-- 1 zac zac  55360 Feb  8 23:11 programmer.o
+[zac@zac-archbox HW4]$ make all
+make: Nothing to be done for 'all'.
+[zac@zac-archbox HW4]$ ls -l
+total 396
+-rw-r--r-- 1 zac zac    699 Feb  2 23:56 Makefile
+-rw-r--r-- 1 zac zac    792 Jan 30 19:18 architect.cpp
+-rw-r--r-- 1 zac zac    478 Jan 30 19:44 architect.h
+-rw-r--r-- 1 zac zac  54328 Feb  8 23:11 architect.o
+-rw-r--r-- 1 zac zac    416 Feb  3 02:04 date.cpp
+-rw-r--r-- 1 zac zac    380 Jan 30 19:48 date.h
+-rw-r--r-- 1 zac zac   6712 Feb  8 23:11 date.o
+-rw-r--r-- 1 zac zac   2980 Feb  3 03:36 employee.cpp
+-rw-r--r-- 1 zac zac   1161 Feb  3 03:47 employee.h
+-rw-r--r-- 1 zac zac  62424 Feb  8 23:11 employee.o
+-rwxr-xr-x 1 zac zac 173816 Feb  8 23:11 [0m[01;32mhw04[0m
+-rw-r--r-- 1 zac zac   1244 Feb  8 23:11 hw04.cpp
+-rw-r--r-- 1 zac zac      0 Feb 11 17:17 hw04.scr
+-rw-r--r-- 1 zac zac   1200 Feb  3 03:45 programmer.cpp
+-rw-r--r-- 1 zac zac    597 Feb  3 03:45 programmer.h
+-rw-r--r-- 1 zac zac  55360 Feb  8 23:11 programmer.o
+[zac@zac-archbox HW4]$ ./hw04
+Please enter name of employee: Zac
+Please enter ID of employee: 12345
+Please enter phone number of employee (no dashes or spaces): 12345678
+Please enter age of employee: 52
+Please enter title of employee: Software Engineer
+Please enter salary of employee: 80000
+Please enter month employee started (1-12): 2
+Please enter the day of the month employee started (1-31): 29
+Please enter the year the employee was hired: 2020
+Please enter employee's department number: 12
+Please enter employee's supervisor name: John Kath
+Pleaae enter employee's salary increase %: 5
+Does this employee know C++?: (Y/N): y
+Does this employee know java?: (Y/N): y
+Please enter name of employee: Bill
+Please enter ID of employee: 1332   23456
+Please enter phone number of employee (no dashes or spaces): 12345678
+Please enter age of employee: 42
+Please enter title of employee: Architect
+Please enter salary of employee: 100000
+Please enter month employee started (1-12): 2
+Please enter the day of the month employee started (1-31): 31
+Please enter the year the employee was hired: 2019
+Invalid day on non-leap year, please reinput hired date
+Please enter month employee started (1-12): 2
+Please enter the day of the month employee started (1-31): 28
+Please enter the year the employee was hired: 1990
+Please enter architect's department number: 13
+Please enter architect supervisor's name: John Kath
+Please enter architect's years of experience: 20  30
+Please enter architect's salary increase: 6
+Engineer's phone number is the same as Architect's
+Engineer's age is 52
+Enter a new age for Engineer: 27
+^C
+[zac@zac-archbox HW4]$ exit
+exit
+
+Script done on 2020-02-11 17:20:10+00:00 [COMMAND_EXIT_CODE="130"]

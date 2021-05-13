@@ -1,0 +1,39 @@
+Script started on 2020-02-16 19:25:52+00:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="214" LINES="85"]
+[zac@zac-archbox HW2]$ date
+Sun Feb 16 19:25:53 UTC 2020
+[zac@zac-archbox HW2]$ ls - l  l
+total 24
+-rw-r--r-- 1 zac zac  285 Feb 16 19:00 card.cpp
+-rw-r--r-- 1 zac zac  227 Feb 16 18:59 card.h
+-rw-r--r-- 1 zac zac 1757 Feb 16 19:25 deck.cpp
+-rw-r--r-- 1 zac zac  474 Feb 16 19:23 deck.h
+-rw-r--r-- 1 zac zac    0 Feb 16 19:25 hw02.scr
+-rw-r--r-- 1 zac zac  657 Feb 16 19:16 main.cpp
+-rw-r--r-- 1 zac zac  371 Jan 22 00:23 makefile
+[zac@zac-archbox HW2]$ make all
+g++ -std=c++14 -Wall -g -c deck.cpp -o deck.o
+g++ -std=c++14 -Wall -g -c card.cpp -o card.o
+g++ -std=c++14 -Wall -g main.cpp -o hw02 deck.o card.o
+[zac@zac-archbox HW2]$ ls -l
+total 116
+-rw-r--r-- 1 zac zac   285 Feb 16 19:00 card.cpp
+-rw-r--r-- 1 zac zac   227 Feb 16 18:59 card.h
+-rw-r--r-- 1 zac zac  3472 Feb 16 19:25 card.o
+-rw-r--r-- 1 zac zac  1757 Feb 16 19:25 deck.cpp
+-rw-r--r-- 1 zac zac   474 Feb 16 19:23 deck.h
+-rw-r--r-- 1 zac zac 30504 Feb 16 19:25 deck.o
+-rwxr-xr-x 1 zac zac 56248 Feb 16 19:26 [0m[01;32mhw02[0m
+-rw-r--r-- 1 zac zac     0 Feb 16 19:25 hw02.scr
+-rw-r--r-- 1 zac zac   657 Feb 16 19:16 main.cpp
+-rw-r--r-- 1 zac zac   371 Jan 22 00:23 makefile
+[zac@zac-archbox HW2]$ ls  ./hw-2  02
+D2 D3 D4 D5 D6 D7 D8 D9 D10 DJ DQ DK DA H2 H3 H4 H5 H6 H7 H8 H9 H10 HJ HQ HK HA C2 C3 C4 C5 C6 C7 C8 C9 C10 CJ CQ CK CA S2 S3 S4 S5 S6 S7 S8 S9 S10 SJ SQ SK SA 
+This deck has not been shuffled
+D2 C2 D3 C3 D4 C4 D5 C5 D6 C6 D7 C7 D8 C8 D9 C9 D10 C10 DJ CJ DQ CQ DK CK DA CA H2 S2 H3 S3 H4 S4 H5 S5 H6 S6 H7 S7 H8 S8 H9 S9 H10 S10 HJ SJ HQ SQ HK SK HA SA 
+This deck has been shuffled
+D2 D3 D4 D5 D6 D7 D8 D9 D10 DJ DQ DK DA H2 H3 H4 H5 H6 H7 H8 H9 H10 HJ HQ HK HA C2 C3 C4 C5 C6 C7 C8 C9 C10 CJ CQ CK CA S2 S3 S4 S5 S6 S7 S8 S9 S10 SJ SQ SK SA 
+This deck has been shuffled
+It took 8 shuffles to achieve the same deck as we started with [zac@zac-archbox HW2]$ exit
+exit
+
+Script done on 2020-02-16 19:26:25+00:00 [COMMAND_EXIT_CODE="0"]

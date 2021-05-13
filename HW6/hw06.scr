@@ -1,0 +1,41 @@
+Script started on 2020-02-17 11:42:19+00:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="214" LINES="85"]
+[zac@zac-archbox HW6]$ date
+Mon Feb 17 11:42:20 UTC 2020
+[zac@zac-archbox HW6]$ ls -l
+total 8
+-rw-r--r-- 1 zac zac  181 Feb 16 21:06 Makefile
+-rw-r--r-- 1 zac zac 2407 Feb 17 11:42 hw06.cpp
+-rw-r--r-- 1 zac zac    0 Feb 17 11:42 hw06.scr
+[zac@zac-archbox HW6]$ make all
+g++     hw06.cpp   -o hw06
+[zac@zac-archbox HW6]$ ls -l
+total 40
+-rw-r--r-- 1 zac zac   181 Feb 16 21:06 Makefile
+-rwxr-xr-x 1 zac zac 29856 Feb 17 11:42 [0m[01;32mhw06[0m
+-rw-r--r-- 1 zac zac  2407 Feb 17 11:42 hw06.cpp
+-rw-r--r-- 1 zac zac     0 Feb 17 11:42 hw06.scr
+[zac@zac-archbox HW6]$ ./hw06
+Starting string: abcdefghijklmnopqrstuvwxyz
+Passing reverse the string along with values 11 and 18 for indices.
+abcdefghijksrqponmltuvwxyz
+Passing reverse the string along with values 5 and 23 for indices.
+abcdexwvutlmnopqrskjihgfyz
+Realphebetizing the string.
+abcdefghijklmnopqrstuvwxyz
+Dealphebetizing the string.
+zyxwvutsrqponmlkjihgfedcba
+
+Here is the same program using the iterative approach:
+Starting string: abcdefghijklmnopqrstuvwxyz
+Passing reverse the string along with values 11 and 18 for indices.
+abcdefghijksrqponmltuvwxyz
+Passing reverse the string along with values 5 and 23 for indices.
+abcdexwvutlmnopqrskjihgfyz
+Realphebetizing the string.
+abcdefghijklmnopqrstuvwxyz
+Dealphebetizing the string.
+zyxwvutsrqponmlkjihgfedcba
+When calling the iterative form of the function, there is only one instance of the function on the stack. This uses less memory but must be done inside of a loop witha  check and increment instead.[zac@zac-archbox HW6]$ exit
+exit
+
+Script done on 2020-02-17 11:42:42+00:00 [COMMAND_EXIT_CODE="0"]

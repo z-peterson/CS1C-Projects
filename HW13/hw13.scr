@@ -1,0 +1,134 @@
+Script started on 2020-04-10 03:08:24+00:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="80" LINES="30"]
+[zac@zac-archbox HW12]$ date
+Fri Apr 10 03:08:27 UTC 2020
+[zac@zac-archbox HW12]$ ls -l
+total 96
+-rw-r--r-- 1 zac zac   194 Apr 10 02:46 Makefile
+-rwxr-xr-x 1 zac zac 86208 Apr 10 03:07 [0m[01;32mhw12[0m
+-rw-r--r-- 1 zac zac  3871 Apr 10 03:08 hw12.cpp
+-rw-r--r-- 1 zac zac     0 Apr 10 03:08 hw12.scr
+[zac@zac-archbox HW12]$ make all
+g++ -std=c++14 -Wall -g hw12.cpp -o hw12 
+[zac@zac-archbox HW12]$ ls -l
+total 96
+-rw-r--r-- 1 zac zac   194 Apr 10 02:46 Makefile
+-rwxr-xr-x 1 zac zac 86136 Apr 10 03:08 [0m[01;32mhw12[0m
+-rw-r--r-- 1 zac zac  3871 Apr 10 03:08 hw12.cpp
+-rw-r--r-- 1 zac zac     0 Apr 10 03:08 hw12.scr
+[zac@zac-archbox HW12]$ ./hw12
+Inserting 0
+Element 1 is 0
+Inserting 1
+Element 2 is 0
+Inserting 2
+Element 3 is 0
+Inserting 3
+Element 4 is 0
+Inserting 4
+Element 5 is 0
+Inserting 5
+Element 6 is 0
+Removing 0
+Element 1 is 1
+Removing 1
+Element 2 is 2
+Removing 2
+Element 3 is 3
+Removing 3
+Element 4 is 4
+Inserting 0
+Element 1 is 4
+Inserting 1
+Element 2 is 4
+Inserting 2
+Element 3 is 4
+Inserting 3
+Element 4 is 4
+Inserting 4
+Element 5 is 4
+Removing 4
+Element 1 is 5
+Removing 5
+Element 2 is 0
+Removing 0
+Element 3 is 1
+Inserting Hello
+Element 1 is Hello
+Inserting Hello
+Element 2 is Hello
+Inserting Hello
+Element 3 is Hello
+Inserting Hello
+Element 4 is Hello
+Inserting Hello
+Element 5 is Hello
+Inserting Hello
+Element 6 is Hello
+Removing Hello
+Element 1 is Hello
+Removing Hello
+Element 2 is Hello
+Removing Hello
+Element 3 is Hello
+Removing Hello
+Element 4 is Hello
+Inserting Goodbye
+Element 1 is Hello
+Inserting Goodbye
+Element 2 is Hello
+Inserting Goodbye
+Element 3 is Hello
+Inserting Goodbye
+Element 4 is Hello
+Inserting Goodbye
+Element 5 is Hello
+Removing Hello
+Element 1 is Hello
+Removing Hello
+Element 2 is Goodbye
+Removing Goodbye
+Element 3 is Goodbye
+Inserting 0
+Element 1 is 0
+Inserting 1
+Element 2 is 0
+Inserting 2
+Element 3 is 0
+Inserting 3
+Element 4 is 0
+Inserting 4
+Element 5 is 0
+Inserting 5
+Element 6 is 0
+Removing 0
+Element 1 is 1
+Removing 1
+Element 2 is 2
+Removing 2
+Element 3 is 3
+Removing 3
+Element 4 is 4
+Inserting 0
+Element 1 is 4
+Inserting 1
+Element 2 is 4
+Inserting 2
+Element 3 is 4
+Inserting 3
+Element 4 is 4
+Inserting 4
+Element 5 is 4
+Removing 4
+Element 1 is 5
+Removing 5
+Element 2 is 0
+Removing 0
+Element 3 is 1
+Queue Is Not Empty
+Queue Is Not Full
+munmap_chunk(): invalid pointer
+Aborted (core dumped)
+[zac@zac-archbox HW12]$ exit
+exit
+
+Script done on 2020-04-10 03:09:35+00:00 [COMMAND_EXIT_CODE="134"]

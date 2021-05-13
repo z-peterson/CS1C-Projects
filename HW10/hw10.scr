@@ -1,0 +1,39 @@
+Script started on 2020-03-24 13:15:53+00:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="80" LINES="32"]
+[zac@zac-archbox HW10]$ date  
+Tue Mar 24 13:15:55 UTC 2020
+[zac@zac-archbox HW10]$ ls -l
+total 16
+-rw-r--r-- 1 zac zac  194 Mar 24 12:57 Makefile
+-rw-r--r-- 1 zac zac 7524 Mar 24 13:13 hw10.cpp
+-rw-r--r-- 1 zac zac    0 Mar 24 13:15 hw10.scr
+-rw-r--r-- 1 zac zac 1140 Mar 24 09:23 rvalue.cpp
+[zac@zac-archbox HW10]$ make all
+g++ -std=c++14 -Wall -g hw10.cpp -o hw10 
+[zac@zac-archbox HW10]$ ls-  0 -l
+total 64
+-rw-r--r-- 1 zac zac   194 Mar 24 12:57 Makefile
+-rwxr-xr-x 1 zac zac 46328 Mar 24 13:15 [0m[01;32mhw10[0m
+-rw-r--r-- 1 zac zac  7524 Mar 24 13:13 hw10.cpp
+-rw-r--r-- 1 zac zac     0 Mar 24 13:15 hw10.scr
+-rw-r--r-- 1 zac zac  1140 Mar 24 09:23 rvalue.cpp
+[zac@zac-archbox HW10]$ ./  hw10
+
+************************************** 
+*           Running HW10             * 
+*      Programmed by First Last      * 
+*      CS1C Date & Time              * 
+************************************** 
+
+v  double values: 25 100.5 0 
+v2 double values (after copy, set): 
+
+v3 double values: 0 0 3.3 
+v4 double values: 0 0 4.4 0 
+v3 double values (after assignment): 0 0 4.4 0 
+
+hw10: malloc.c:2379: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+Aborted (core dumped)
+[zac@zac-archbox HW10]$ exit
+exit
+
+Script done on 2020-03-24 13:16:11+00:00 [COMMAND_EXIT_CODE="134"]

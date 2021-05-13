@@ -1,0 +1,35 @@
+Script started on 2020-04-21 21:58:49+00:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="80" LINES="30"]
+[zac@zac-archbox HW11]$ date
+Tue Apr 21 21:58:55 UTC 2020
+[zac@zac-archbox HW11]$ ls -l
+total 36
+-rw-r--r-- 1 zac zac   194 Apr 21 21:58 Makefile
+-rwxr-xr-x 1 zac zac 19176 Apr 21 21:57 [0m[01;32mhw11[0m
+-rw-r--r-- 1 zac zac  8720 Apr 21 21:57 hw11.cpp
+-rw-r--r-- 1 zac zac     0 Apr 21 21:58 hw11.scr
+[zac@zac-archbox HW11]$ make
+make: Nothing to be done for 'all'.
+[zac@zac-archbox HW11]$ ./hw11
+
+************************************** 
+*           Running HW11             * 
+*    Programmed by Zac Peterson      * 
+*         CS1C TTh 12:30pm           * 
+************************************** 
+
+9 8 7 6 5 4 3 2 1 
+1 2 3 4 5 6 7 8 9 
+9 1 2 3 4 5 6 7 8 
+[zac@zac-archbox HW11]$ make tar        ls - l
+ls: cannot access '-': No such file or directory
+ls: cannot access 'l': No such file or directory
+[zac@zac-archbox HW11]$ ls -l
+total 36
+-rw-r--r-- 1 zac zac   194 Apr 21 21:58 Makefile
+-rwxr-xr-x 1 zac zac 19176 Apr 21 21:57 [0m[01;32mhw11[0m
+-rw-r--r-- 1 zac zac  8720 Apr 21 21:57 hw11.cpp
+-rw-r--r-- 1 zac zac     0 Apr 21 21:58 hw11.scr
+[zac@zac-archbox HW11]$ scrip     exit
+exit
+
+Script done on 2020-04-21 21:59:23+00:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,31 @@
+Script started on 2020-02-08 22:57:03+00:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="108" LINES="44"]
+[zac@zac-archbox HW5]$ date
+Sat Feb  8 22:57:05 UTC 2020
+[zac@zac-archbox HW5]$ ls -l
+total 8
+-rw-r--r-- 1 zac zac  181 Feb  8 21:34 Makefile
+-rw-r--r-- 1 zac zac 1986 Feb  8 22:56 hw05.cpp
+-rw-r--r-- 1 zac zac    0 Feb  8 22:57 hw05.scr
+[zac@zac-archbox HW5]$ make all
+g++ -std=c++14 -Wall -g hw05.cpp -o hw05 
+[zac@zac-archbox HW5]$ ls -l
+total 124
+-rw-r--r-- 1 zac zac    181 Feb  8 21:34 Makefile
+-rwxr-xr-x 1 zac zac 117760 Feb  8 22:57 [0m[01;32mhw05[0m
+-rw-r--r-- 1 zac zac   1986 Feb  8 22:56 hw05.cpp
+-rw-r--r-- 1 zac zac      0 Feb  8 22:57 hw05.scr
+[zac@zac-archbox HW5]$ ./hw05
+The standard template library is a library of header files containing various useful functions and moderated libraries for efficient and commonly used algorithms.
+One of these libraries is that for the vector, which is a class for a dynamic array containing several different functions for manipulating its data members.
+Some vector functions include push_back(), pop_back(), resize(), insert(),  and clear(), which will modify the vector's size in different ways depending on what is passed to the function.
+The Array is another class within STL which allows you to create an array of a data type and is similar to the vector in many ways. However, arrays are fixed where as the vectors are resizable. When an array is declared, it must be given a size and that size may not be changed until it goes out of scope and is redclared.
+While the resize function within the vector allocates new spaces within memory for the vector to use and manipulate, or deallocates them, the resreve functions imply allocates memory for the vector to use later.
+The begin() and end() functions within the vector allow you to access the first and last members of the vector. 
+
+
+Passing lotto function values 6 and 51
+ 14 16 29 34 38 48
+[zac@zac-archbox HW5]$ exit
+exit
+
+Script done on 2020-02-08 22:57:36+00:00 [COMMAND_EXIT_CODE="0"]
